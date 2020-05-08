@@ -1,0 +1,11 @@
+{
+  "field_names": ["productname", "productvendor", "productversion"],
+  "field_definition" : [{"field" : "productname", "type" : "String"},
+                        {"field" : "productversion", "type" : "Exact",
+                         "has_missing" : true}],
+  "output_file": "group_software.csv",
+  "skip_training": false,
+  "training_file": "training.json",
+  "sample_size": 1500000, 
+  "recall_weight": 2
+}
